@@ -86,9 +86,3 @@ body {
 .randomthing:hover {
   transform: translateX(500px)
 }
-.randomtext {
-  transition: background-color 1s elastic 200ms
-}
-.randomthing:hover .randomtext {
-  background-color: red;
-}  
