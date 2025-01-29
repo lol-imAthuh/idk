@@ -58,12 +58,12 @@ body {
 .link:hover {
   background-color: #ff0000; /* Corrigido: faltava o '#' antes da cor */
 }
-.linkboxtitle title1 {
+.linkboxtitle {
   color: #03fcdf;
   background-color: red;
   transition: transform 0.3s ease;
   
-linkboxtitle title1:hover {
+linkboxtitle:hover {
   color: #d000ff;
   background-color: #37ff00;
   transform: translateY(-20px);
