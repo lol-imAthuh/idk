@@ -59,12 +59,12 @@ body {
   background-color: #ff0000; /* Corrigido: faltava o '#' antes da cor */
 }
 .linkboxtitle {
-  color: #03fcdf;
-  background-color: red;
-  transition: transform 0.3s ease;
-  
+  color: black; /* Cor inicial */
+  transform: scale(1); /* Transformação inicial (tamanho normal) */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transição para cor e transformação */
+}
 .linkboxtitle:hover {
-  color: #d000ff;
+  color: red;
   background-color: #37ff00;
-  transform: translateY(-20px);
-    
+  transform: translateY(-20px) scale(1.3);
+}
