@@ -63,7 +63,7 @@ body {
   background-color: red;
   transition: transform 0.3s ease;
   
-linkboxtitle:hover {
+.linkboxtitle:hover {
   color: #d000ff;
   background-color: #37ff00;
   transform: translateY(-20px);
