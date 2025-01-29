@@ -1,35 +1,47 @@
+/* Reset de margens e padding */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border_box;
+  box-sizing: border-box; /* Corrigido: border_box para border-box */
 }
 
 body {
-font-family: Arial, sans-serif;
-background_color: 596fc9;
+  font-family: Arial, sans-serif;
+  background-color: #596fc9; /* Corrigido: background_color para background-color */
+}
 
+/* Estilo para o container de links */
 .linkboxes {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr); /* Definindo uma coluna */
   grid-gap: 20px;
-  padding:10px;
+  padding: 10px;
+}
 
+/* Estilo para cada "caixa de link" */
 .linkbox {
-    background-color: #fff;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.5s ease-in-out;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease-in-out;
+}
 
+/* Efeito ao passar o mouse na caixa de link */
 .linkbox:hover {
-  background-color: ad74c2;
+  background-color: #ad74c2; /* Corrigido: faltava o '#' antes da cor */
   transform: translateY(-2px) scale(1.35);
+}
 
+/* Estilo do link dentro da caixa */
 .link {
-  transition: transform 0.2s  ease;
+  transition: transform 0.2s ease;
+}
 
+/* Efeito de esticar o link ao passar o mouse */
 .link:hover {
-  transform: scaleX(1.5)
-  background-color: ff0000
+  transform: scaleX(1.5); /* Corrigido: faltava o ';' no final */
+  background-color: #ff0000; /* Corrigido: faltava o '#' antes da cor */
+}
