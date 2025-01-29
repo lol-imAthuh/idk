@@ -85,4 +85,5 @@ body {
 }
 .randomthing:hover {
   transform: translateX(500px)
+  background-color: #9100f2
 }
