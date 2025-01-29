@@ -66,5 +66,5 @@ body {
 .linkboxtitle:hover {
   color: red;
   background-color: cyan;
-  transform: translateY(-20px) scale(1.1);
+  transform: translateY(-5px) scale(1.1);
 }
