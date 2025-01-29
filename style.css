@@ -51,7 +51,7 @@ body {
 /* Estilo do link dentro da caixa */
 .link {
   background-color: #0002ff;
-  transition: transform 0.2s cubic-bezier(0.79, 0.07, 0, 1.37);
+  transition: transform 0.2s ease;
 }
 
 /* Efeito de esticar o link ao passar o mouse */
