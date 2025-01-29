@@ -37,6 +37,7 @@ body {
 
 /* Estilo do link dentro da caixa */
 .link {
+  background-color: #0002ff
   transition: transform 0.2s ease;
 }
 
