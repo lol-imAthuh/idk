@@ -50,12 +50,21 @@ body {
 
 /* Estilo do link dentro da caixa */
 .link {
-  background-color: #0002ff
+  background-color: #0002ff;
   transition: transform 0.2s ease;
 }
 
 /* Efeito de esticar o link ao passar o mouse */
 .link:hover {
-  transform: scaleX(1.5); /* Corrigido: faltava o ';' no final */
   background-color: #ff0000; /* Corrigido: faltava o '#' antes da cor */
 }
+.linkboxtitle title1 {
+  color: #03fcdf;
+  background-color: #fc0331;
+  transition: transform 0.3s ease;
+  
+  linkboxtitle title1:hover {
+    color: #d000ff
+    background-color: #37ff00
+    transform: translateY(-20px)
+    
