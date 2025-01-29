@@ -28,6 +28,7 @@ body {
 
 /* Estilo para cada "caixa de link" */
 .linkbox {
+  position: relative;
   width: 200px;  
   height: 200px;
   border: 2px;
