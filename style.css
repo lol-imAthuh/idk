@@ -87,7 +87,7 @@ body {
   transform: translateX(500px);
   background-color: #9100f2;
 }
-randomthing:hover .randomtext {
+.randomtext:hover {
   background-color: red;
   color: blue;
 }
