@@ -20,6 +20,7 @@ body {
 
 /* Estilo para cada "caixa de link" */
 .linkbox {
+  scale(0.3)
   background-color: #fff;
   border: 2px solid #ddd;
   border-radius: 8px;
