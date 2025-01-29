@@ -12,10 +12,10 @@ body {
 
 /* Estilo para o container de links */
 .linkboxes {
-  width: 200px;  
-  height: 300px;
+  width: 350px;  
+  height: 350px;
   border: 2px;
-  border-radius: 8px;
+  border-radius: 4px;
   text-align: center;
   background-color: #ff6d02;
   border: 2px solid #8c3b00;
@@ -29,7 +29,7 @@ body {
 /* Estilo para cada "caixa de link" */
 .linkbox {
   width: 200px;  
-  height: 300px;
+  height: 200px;
   border: 2px;
   border-radius: 8px;
   text-align: center;
