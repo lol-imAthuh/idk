@@ -7,7 +7,11 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #000; /* Corrigido: background_color para background-color */
+  background-color: black; /* Corrigido: background_color para background-color */
+}
+
+.title {
+  color: white;
 }
 
 /* Estilo para o container de links */
@@ -45,7 +49,7 @@ body {
 .linkbox:hover {
    transform: translateY(-10);
     background_color: #fff;
-    border: 2px solid #000;
+    border: 2px solid black;
 }
 
 .linkboxtitle {
@@ -69,7 +73,7 @@ body {
 
 .randomthing:hover {
   transform: translateY(-10);
-  background_color: #000;
+  background_color: black;
   border: 2px solid #fff;
 }
 .randomtext:hover {
