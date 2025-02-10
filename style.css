@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #596fc9; /* Corrigido: background_color para background-color */
+  background-color: #000; /* Corrigido: background_color para background-color */
 }
 
 /* Estilo para o container de links */
@@ -39,36 +39,21 @@ body {
   border-radius: 8px;
   padding: 0px
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 10, 0.1);
-  transition: transform 0.3s ease-in-out;
 }
 
 /* Efeito ao passar o mouse na caixa de link */
 .linkbox:hover {
-  background-color: #ad74c2; /* Corrigido: faltava o '#' antes da cor */
-  transform: translateY(-2px) scale(1.35);
+   transform: translateY(-10);
+    background_color: #fff;
+    border: 2px solid #000;
 }
 
-/* Estilo do link dentro da caixa */
-.link {
-  background-color: #0002ff;
-  transition: transform 0.2s ease;
-}
-
-/* Efeito de esticar o link ao passar o mouse */
-.link:hover {
-  background-color: #ff0000; /* Corrigido: faltava o '#' antes da cor */
-}
 .linkboxtitle {
   color: black; /* Cor inicial */
   transform: scale(1); /* Transformação inicial (tamanho normal) */
   transition: color 0.3s ease, transform 0.3s ease; /* Transição para cor e transformação */
 }
-.linkboxtitle:hover {
-  color: red;
-  background-color: cyan;
-  transform: scale(1.05) scalex(1.2);
-}
+
 .randomthing {
   width: 200px;  
   height: 200px;
@@ -80,12 +65,12 @@ body {
   border-radius: 8px;
   padding: 0px
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 10, 0.1);
-  transition: transform 1s cubic-bezier(0.79, 0.07, 0, 1.37);
 }
+
 .randomthing:hover {
-  transform: translateX(500px);
-  background-color: #9100f2;
+  transform: translateY(-10);
+  background_color: #000;
+  border: 2px solid #fff;
 }
 .randomtext:hover {
   background-color: red;
